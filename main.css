@@ -10,14 +10,14 @@
     background-color: #ffffff;
     border: 1px none;
     flex-direction: column; 
-    max-width: 1440px; 
+    max-width: 1200px; 
     min-width: 360px;
     padding: 64px 0px; 
 }
 
 .work {
     align-self: stretch;
-    max-width: 1440px; 
+    max-width: 1200px; 
     min-width: 360px;
     flex: 0 0 auto;
     column-gap: 24px;
