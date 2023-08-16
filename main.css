@@ -12,7 +12,7 @@
     flex-direction: column; 
     max-width: 1200px; 
     min-width: 360px;
-    padding: 64px 0px; 
+    padding: 0px 64px; 
 }
 
 .work {
