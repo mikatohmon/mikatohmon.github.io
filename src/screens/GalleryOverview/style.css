@@ -1,0 +1,14 @@
+.gallery-overview {
+  align-items: flex-start;
+  background-color: #ffffff;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 3534px;
+  padding: 64px 0px;
+  position: relative;
+}
+
+.gallery-overview .work-instance {
+  flex: 0 0 auto !important;
+}

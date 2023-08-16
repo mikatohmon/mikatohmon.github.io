@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text:400");
+
+.gallery {
+    align-items: flex-start;
+    display: flex;
+    position: relative; 
+}
+
+.gallery-overview {
+    background-color: #ffffff;
+    border: 1px none;
+    flex-direction: column; 
+    height: 100%; 
+    min-width: 360px;
+    padding: 64px 0px; 
+}
+
+.work {
+    align-self: stretch;
+    flex: 0 0 auto;
+    column-gap: 24px;
+    padding: 24px 0px;
+    width: 100%;
+}
+
+.column {
+    align-self: stretch;
+    background-color: var(--desert-storm);
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    column-gap: 24px; 
+    max-height: 540px; 
+    max-width: 960px: 
+    min-height: 180px;
+    min-width: 320px;
+}
+
+.isaribi-1 {
+    align-self: stretch;
+    flex: 1;
+    flex-grow: 1;
+    object-fit: cover;
+    position: relative; 
+    width: 100%; 
+}
+
+.column-text {
+    align-items: center; 
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column; 
+    column-gap: 24px;
+    height: inherit;
+    justify-content: flex-end;
+    padding: 0px 24px 72px 0px;
+    position: relative;
+    
+}
+
+.text-main {
+    font-size: 14px; 
+    align-self: stretch;
+    letter-spacing: 0;
+    line-height: 21px; 
+    position: relative; 
+}
+
+    
+    
+    
+}
