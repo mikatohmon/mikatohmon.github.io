@@ -17,6 +17,8 @@
 
 .work {
     align-self: stretch;
+    max-width: 1440px; 
+    min-width: 360px;
     flex: 0 0 auto;
     column-gap: 24px;
     padding: 24px 0px;
