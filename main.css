@@ -5,6 +5,11 @@
    border-collapse: collapse;
 }
 
+img {
+    pointer-events: none;
+  -webkit-touch-callout: none;
+}
+
 .gallery {
     align-items: flex-start;
     display: flex;
