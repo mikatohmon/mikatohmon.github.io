@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Crimson+Text:400");
 
+
+#page {
+   border-collapse: collapse;
+}
+
 .gallery {
     align-items: flex-start;
     display: flex;
