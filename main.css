@@ -10,7 +10,7 @@
     background-color: #ffffff;
     border: 1px none;
     flex-direction: column; 
-    height: 100%; 
+    max-width: 1440px; 
     min-width: 360px;
     padding: 64px 0px; 
 }
