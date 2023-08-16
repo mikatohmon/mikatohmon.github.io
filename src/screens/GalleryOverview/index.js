@@ -1,1 +1,0 @@
-export { GalleryOverview } from "./GalleryOverview";
