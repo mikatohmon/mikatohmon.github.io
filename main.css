@@ -25,6 +25,12 @@ img {
     padding: 64px 0px; 
 }
 
+.hidden, 
+.hidden * {
+    pointer-events: none;
+    visibility: hidden;
+}
+
 .work {
     align-self: stretch;
     max-width: 1200px; 
