@@ -38,27 +38,33 @@ img {
 
 .navbar {
     position: relative; 
-    width: 100%; 
+    width: 90%; 
     align-items: flex-start;
     display: flex;
     flex-direction: column; 
+
+
 }
 
 
 .navbar-content {
     margin-top: 36px; 
     display: flex;
-    gap: 45%; 
+    gap: 45vw; 
     width: 100%;
     position: fixed;
+    max-width: 1102px; 
 }
 
 .navbar-name {
     margin-left: 72px;
+    white-space: nowrap; 
+    overflow: visible; 
 }
 
 .navbar-pages {
     display: flex;
+
 }
 
 .navbar-link {
