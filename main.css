@@ -49,11 +49,10 @@ img {
 
 .navbar-content {
     margin-top: 36px; 
-    display: flex;
-    gap: 45vw; 
+    display: flex; 
     width: 100%;
     position: fixed;
-    max-width: 1102px; 
+    max-width: 1600px; 
 }
 
 .navbar-name {
@@ -64,6 +63,8 @@ img {
 
 .navbar-pages {
     display: flex;
+    margin-right: 15vw; 
+    margin-left: auto; 
 
 }
 
@@ -81,14 +82,20 @@ img {
     background-color: #ffffff;
     border: 1px none;
     flex-direction: column; 
+    height: 100vh; 
     max-width: 1920px; 
     min-width: 360px;
-    padding: 64px 0px; 
+    margin: 64px 0px; 
+    scroll-snap-type: y mandatory; 
+    overflow-y: scroll; 
+
 }
 
 
 
 .work {
+    scroll-snap-stop: always; 
+    scroll-snap-align: start; 
     align-self: stretch;
     max-width: 1920px; 
     min-width: 360px;
@@ -124,7 +131,7 @@ img {
     column-gap: 24px;
     height: inherit;
     justify-content: flex-end;
-    margin: auto 24px 72px 0;
+    margin: auto 8vw 72px 0;
     position: relative;
     
 }
