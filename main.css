@@ -10,7 +10,7 @@ body {
     letter-spacing: 0.25px;  
     color: #353535; 
     cursor: default; 
-    
+    line-height: 24px; 
 }
 
 a {
@@ -139,7 +139,6 @@ img {
 .text-main {
     font-size: 14px; 
     align-self: stretch;
-    line-height: 21px; 
     position: relative; 
     
 }
@@ -151,4 +150,26 @@ img {
    margin: 95vh 72px; 
    flex-shrink: 0; 
 
+}
+
+.words {
+    align-items: flex-start;
+    display: flex;
+    position: relative;
+    flex-direction: column; 
+    height: 100vh; 
+    max-width: 1920px; 
+    min-width: 360px;
+    margin: 120px 72px;  
+}
+
+.about {
+    align-items: flex-start;
+    display: flex;
+    position: relative;
+    flex-direction: column; 
+    height: 100vh; 
+    max-width: 1920px; 
+    min-width: 360px;
+    margin: 120px 72px;  
 }

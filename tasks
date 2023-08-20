@@ -1,19 +1,14 @@
 
 //high priority 
 
-    #content
+    #content planning
 
     #blog section
 
-    #individual pages
+    #individual gallery pages
 
 
 //mid priority
 
     #breakpoints
         >iphone breakpoint with modified menu
-
-
-//low priority
-
-    #invert menu
