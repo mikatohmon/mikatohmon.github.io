@@ -81,7 +81,7 @@ img {
     background-color: #ffffff;
     border: 1px none;
     flex-direction: column; 
-    max-width: 1200px; 
+    max-width: 1920px; 
     min-width: 360px;
     padding: 64px 0px; 
 }
@@ -90,23 +90,21 @@ img {
 
 .work {
     align-self: stretch;
-    max-width: 1200px; 
+    max-width: 1920px; 
     min-width: 360px;
     flex: 0 0 auto;
     column-gap: 24px;
-    padding: 24px 0px;
+    padding: 48px 0px;
     width: 100%;
 }
 
 .column {
     align-self: stretch;
-    background-color: var(--desert-storm);
     flex: 1;
     flex-direction: column;
     flex-grow: 1;
-    column-gap: 24px; 
-    max-height: 540px; 
-    max-width: 960px; 
+    column-gap: 24px;  
+    max-width: 1600px; 
     min-width: 320px; 
 }
 
