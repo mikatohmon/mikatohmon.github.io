@@ -20,7 +20,7 @@ a {
 }
 
 a:hover {
-    color: #888888;
+    color: #b5b5b5;
 }
 
 
@@ -33,19 +33,16 @@ img {
 .hidden * {
     pointer-events: none;
     visibility: hidden;
-    
 }
 
 .navbar {
-    position: relative; 
+    position: sticky; 
+    top: 0; 
     width: 90%; 
     align-items: flex-start;
     display: flex;
-    flex-direction: column; 
-
-
+    flex-direction: column;
 }
-
 
 .navbar-content {
     margin-top: 36px; 
@@ -53,19 +50,22 @@ img {
     width: 100%;
     position: fixed;
     max-width: 1600px; 
+    z-index: 3; 
+        color: #5e5e5e;
+        mix-blend-mode: difference; 
 }
 
 .navbar-name {
     margin-left: 72px;
     white-space: nowrap; 
     overflow: visible; 
+    
 }
 
 .navbar-pages {
     display: flex;
     margin-right: 15vw; 
     margin-left: auto; 
-
 }
 
 .navbar-link {
@@ -79,15 +79,15 @@ img {
 }
 
 .gallery-overview {
-    background-color: #ffffff;
     border: 1px none;
     flex-direction: column; 
     height: 100vh; 
     max-width: 1920px; 
     min-width: 360px;
-    margin: 64px 0px; 
+    margin: 120px 0px; 
     scroll-snap-type: y mandatory; 
-    overflow-y: scroll; 
+    scroll-padding-top: 36px; 
+    overflow: scroll-y; 
 
 }
 
@@ -101,7 +101,7 @@ img {
     min-width: 360px;
     flex: 0 0 auto;
     column-gap: 24px;
-    padding: 48px 0px;
+    margin: 64px 0px;
     width: 100%;
 }
 
@@ -141,6 +141,14 @@ img {
     align-self: stretch;
     line-height: 21px; 
     position: relative; 
+    
 }
 
     
+.footer {
+   z-index: 3;  
+   position: fixed; 
+   margin: 95vh 72px; 
+   flex-shrink: 0; 
+
+}
