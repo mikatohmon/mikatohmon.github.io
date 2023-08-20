@@ -170,7 +170,7 @@ img {
     position: relative;
     flex-direction: column; 
     height: 100vh; 
-    max-width: 1920px; 
+    max-width: 800px;; 
     min-width: 360px;
     margin: 120px 72px;  
 }
