@@ -1,13 +1,68 @@
 @import url("https://fonts.googleapis.com/css?family=Crimson+Text:400");
 
-
-#page {
-   border-collapse: collapse;
+body {
+    border-collapse: collapse;
+    padding: 0; 
+    margin: 0; 
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column; 
+    letter-spacing: 0.25px;  
+    color: #353535; 
+    cursor: default; 
+    
 }
+
+a {
+    color: inherit; 
+    text-decoration: none;
+    cursor: default; 
+}
+
+a:hover {
+    color: #888888;
+}
+
 
 img {
     pointer-events: none;
   -webkit-touch-callout: none;
+}
+
+.hidden, 
+.hidden * {
+    pointer-events: none;
+    visibility: hidden;
+    
+}
+
+.navbar {
+    position: relative; 
+    width: 100%; 
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column; 
+}
+
+
+.navbar-content {
+    margin-top: 36px; 
+    display: flex;
+    gap: 45%; 
+    width: 100%;
+    position: fixed;
+}
+
+.navbar-name {
+    margin-left: 72px;
+}
+
+.navbar-pages {
+    display: flex;
+}
+
+.navbar-link {
+    padding-right: 24px; 
 }
 
 .gallery {
@@ -25,11 +80,7 @@ img {
     padding: 64px 0px; 
 }
 
-.hidden, 
-.hidden * {
-    pointer-events: none;
-    visibility: hidden;
-}
+
 
 .work {
     align-self: stretch;
@@ -50,28 +101,26 @@ img {
     column-gap: 24px; 
     max-height: 540px; 
     max-width: 960px; 
-    min-height: 180px;
-    min-width: 320px;
+    min-width: 320px; 
 }
 
-.isaribi-1 {
+.main-image {
     align-self: stretch;
     flex: 1;
     flex-grow: 1;
-    object-fit: cover;
+    object-fit: scale-down;
     position: relative; 
     width: 100%; 
 }
 
 .column-text {
-    align-items: center; 
     display: inline-flex;
     flex: 0 0 auto;
     flex-direction: column; 
     column-gap: 24px;
     height: inherit;
     justify-content: flex-end;
-    padding: 72px 24px 24px 0px;
+    margin: auto 24px 72px 0;
     position: relative;
     
 }
@@ -79,12 +128,8 @@ img {
 .text-main {
     font-size: 14px; 
     align-self: stretch;
-    letter-spacing: 0;
     line-height: 21px; 
     position: relative; 
 }
 
     
-    
-    
-}
